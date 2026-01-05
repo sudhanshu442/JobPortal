@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import Navbar from '../shared/Navbar'
 import { Checkbox } from '@radix-ui/react-checkbox'
 import { Label } from '@radix-ui/react-label'
-import { Input } from '../ui/Input'
+import { Input } from '../ui/input'
 import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group"
 import { Link, useNavigate } from 'react-router-dom'
 import { USER_API_END_POINT } from '@/Utils/constant';
